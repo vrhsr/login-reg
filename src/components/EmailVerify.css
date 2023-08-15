@@ -1,0 +1,16 @@
+.email {
+  height: 100vh;
+  width: 100%;
+  background: -webkit-linear-gradient(
+    to bottom right,
+    rgb(124, 229, 255),
+    rgba(245, 87, 108, 1)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to bottom right,
+    rgb(110, 29, 209),
+    rgb(87, 245, 245)
+  );
+}

@@ -1,0 +1,58 @@
+/* Navbar.css */
+/* Remove any existing styles (if any) to reset the default Navbar appearance */
+.navbar {
+  background: none;
+  box-shadow: none;
+}
+
+
+
+/* Add a transparent background and remove the border */
+#mainNavbar {
+  background: transparent;
+  border: none;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #fff;
+  /* Set the brand text color to white */
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f7f7f7;
+}
+
+.navbar-toggler {
+  border: none;
+  background-color: transparent;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg' class='iconify iconify--twemoji'%3E%3Cpath d='M6.857 10.286h18.286c.957 0 1.714-.771 1.714-1.714s-.771-1.714-1.714-1.714H6.857c-.957 0-1.714.771-1.714 1.714s.771 1.714 1.714 1.714zm18.286 7.428H6.857C5.9 17.714 5.143 18.486 5.143 19.43s.771 1.714 1.714 1.714h18.286c.957 0 1.714-.771 1.714-1.714s-.771-1.714-1.714-1.714zm0 5.142H6.857C5.9 22.857 5.143 23.629 5.143 24.571c0 .943.771 1.714 1.714 1.714h18.286c.957 0 1.714-.771 1.714-1.714-.057-.943-.829-1.714-1.771-1.714z'/%3E%3C/svg%3E");
+  width: 25px;
+  height: 25px;
+}
+
+/* Register.css */
+/* Add custom styles to the phone number field */
+#phoneNumber {
+  background: #f7f7f7;
+  /* Light gray background */
+  border: 1px solid #ced4da;
+  /* Gray border */
+  border-radius: 5px;
+  padding-left: 40px;
+  /* Add padding for the +91 */
+}
+
+/* Style the text areas to remove draggable resize */
+textarea {
+  resize: none;
+  /* Add any other custom styles for the text areas as needed */
+}

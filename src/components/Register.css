@@ -1,0 +1,238 @@
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#phoneNumber {
+  border: solid 2px black;
+}
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #000;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to bottom right,
+      rgb(124, 229, 255),
+      rgba(245, 87, 108, 1));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to bottom right,
+      rgb(29, 209, 125),
+      rgb(59, 214, 214));
+}
+
+.navbar-brand {
+  padding-left: 5%;
+}
+
+.button:hover {
+  background-color: #2ee59d;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+}
+
+.nav-item {
+  padding: 5px;
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+}
+
+.card-registration .select-arrow {
+  top: 13px;
+}
+
+.iti-flag {
+  background-image: url("https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/12.0.3/img/flags.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2 / 1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+  .iti-flag {
+    background-image: url("https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/12.0.3/img/flags@2x.png");
+  }
+}
+
+.input-group .form-control,
+.intl-tel-input {
+  width: 100%;
+}
+
+/* Additional styles for attractive form */
+/* You can add more custom styles here to enhance the appearance of the form */
+.card-registration {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #333;
+}
+
+.form-control {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  resize: vertical;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: 0 0 3px #0096ff;
+}
+
+.form-check-label {
+  margin-right: 10px;
+}
+
+.error-message {
+  color: #ff0000;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Add some custom styles to the registration form */
+.card-registration {
+  border: 2px solid #000;
+}
+
+.card-registration .card-body {
+  background-color: #ffffff;
+}
+
+.card-registration h3 {
+  color: #000;
+  font-weight: 600;
+  text-align: center;
+}
+
+.form-control {
+  border: 2px solid #000;
+}
+
+.form-control:focus {
+  border-color: #000;
+  box-shadow: none;
+}
+
+.form-label {
+  color: #000;
+  font-weight: bold;
+}
+
+.select-label {
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.btn-primary {
+  background-color: #000;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #8f1fb1;
+}
+
+/* Add some custom styles to the scroll bar */
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #f0f0f0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #000;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #e673c1;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+/* Add some glow effect to the handle when scrolling */
+::-webkit-scrollbar-thumb:active {
+  background-color: #000;
+  box-shadow: 0 0 5px 1px #000;
+}
+
+
+/* Register.css */
+/* Add custom styles for the "Other" gender option */
+input[type="radio"][name="inlineRadioOptions"] {
+  /* Hide the default radio button */
+  display: none;
+}
+
+/* Customize the radio button appearance for the "Other" option */
+.form-check-label {
+  position: relative;
+
+  padding-left: 26px;
+  /* Create space for the custom radio button */
+  cursor: pointer;
+}
+
+.form-check-label:before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  width: 20px;
+  height: 20px;
+  border: 3px solid #6c757d;
+  /* Gray border */
+  border-radius: 50%;
+}
+
+.form-check-label input[type="radio"]:checked+.form-check-label:before {
+  border-color: #007bff;
+  /* Blue color when checked */
+}
+
+.form-check-label input[type="radio"]:checked+.form-check-label:after {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 18px;
+  width: 116px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #007bff;
+  /* Blue dot when checked */
+}
+
+/* Adjust the spacing between radio options */
+.form-check-inline:not(:last-child) {
+  margin-right: 20px;
+}
+
+.form-control {
+  resize: none;
+}
+
+.datepicker input[type="date"] {
+  max-width: 100%;
+}
